@@ -37,8 +37,8 @@ module.exports = {
       '@semantic-release/npm',
       {
         pkgRoot: '.',
-        // TODO: if want to auto npm publish, setup npmPublish to true
-        npmPublish: false,
+        // TODO: if don't want to auto npm publish, setup npmPublish to false
+        npmPublish: true,
         tarballDir: false,
       },
     ],

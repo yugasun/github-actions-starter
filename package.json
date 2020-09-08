@@ -1,5 +1,5 @@
 {
-  "name": "github-actions-starter",
+  "name": "@yugasun/github-actions-starter",
   "version": "0.0.0",
   "description": "Github Actions Project Template",
   "main": "./src/index.js",
