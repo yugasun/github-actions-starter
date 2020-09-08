@@ -7,6 +7,15 @@
 
 Github Actions Project Template.
 
+## Features
+
+- [ ] [Typescript](https://github.com/microsoft/TypeScript)
+- [x] [Github Actions](https://github.com/features/actions)
+- [x] [Eslint](https://github.com/eslint/eslint)
+- [x] [Prettier](https://github.com/prettier/prettier)
+- [x] [Jest](https://github.com/facebook/jest)
+- [x] [semantic-release](https://github.com/semantic-release/semantic-release)
+
 ## Usage
 
 ```bash
@@ -40,4 +49,4 @@ Most of time, we just use `feat` and `fix`.
 
 ## License
 
-Copyright (c) 2020 Serverless Plus
+MIT
