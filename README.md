@@ -9,7 +9,7 @@ Github Actions Project Template.
 
 ## Features
 
-- [ ] [Typescript](https://github.com/microsoft/TypeScript)
+- [x] [Typescript](https://github.com/microsoft/TypeScript)
 - [x] [Github Actions](https://github.com/features/actions)
 - [x] [Eslint](https://github.com/eslint/eslint)
 - [x] [Prettier](https://github.com/prettier/prettier)

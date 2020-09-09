@@ -2,18 +2,19 @@
   "name": "@yugasun/github-actions-starter",
   "version": "1.0.0",
   "description": "Github Actions Project Template",
-  "main": "./src/index.js",
+  "main": "./dist/index.js",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "test": "jest",
+    "bundle": "tsc",
     "format": "npm run lint && npm run prettier",
     "commitlint": "commitlint -f HEAD@{15}",
     "lint": "eslint --ext .js,.ts,.tsx .",
     "lint:fix": "eslint --fix --ext .js,.ts,.tsx .",
-    "prettier": "prettier --check '**/*.{css,html,js,json,md,yaml,yml}'",
-    "prettier:fix": "prettier --write '**/*.{css,html,js,json,md,yaml,yml}'",
+    "prettier": "prettier --check '**/*.{css,html,js,ts,json,md,yaml,yml}'",
+    "prettier:fix": "prettier --write '**/*.{css,html,js,ts,json,md,yaml,yml}'",
     "release": "semantic-release",
     "release-local": "node -r dotenv/config node_modules/semantic-release/bin/semantic-release --no-ci --dry-run",
     "check-dependencies": "npx npm-check --skip-unused --update"
@@ -33,7 +34,7 @@
       "npm run lint:fix",
       "git add ."
     ],
-    "**/*.{css,html,js,json,md,yaml,yml}": [
+    "**/*.{css,html,js,ts,json,md,yaml,yml}": [
       "npm run prettier:fix",
       "git add ."
     ]
@@ -53,6 +54,7 @@
     "@semantic-release/git": "^9.0.0",
     "@semantic-release/npm": "^7.0.4",
     "@semantic-release/release-notes-generator": "^9.0.1",
+    "@types/jest": "^26.0.13",
     "babel-eslint": "^10.1.0",
     "dotenv": "^8.2.0",
     "eslint": "^6.8.0",
@@ -63,7 +65,9 @@
     "jest": "^26.4.2",
     "lint-staged": "^10.0.8",
     "prettier": "^1.19.1",
-    "semantic-release": "^17.0.4"
+    "semantic-release": "^17.0.4",
+    "typescript": "^4.0.2",
+    "typescript-json-schema": "^0.43.0"
   },
   "repository": {
     "type": "git",
