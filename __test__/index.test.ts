@@ -1,4 +1,4 @@
-const Hello = require('../src');
+import { Hello } from '../src';
 
 describe('Hello', () => {
   it('should get write return', async () => {

@@ -3,4 +3,4 @@ const Hello = () => {
   return true;
 };
 
-module.exports = Hello;
+export { Hello };

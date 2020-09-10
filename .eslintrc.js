@@ -1,13 +1,13 @@
 module.exports = {
   root: true,
+  parser: '@typescript-eslint/parser',
   extends: ['prettier'],
-  plugins: ['import', 'prettier'],
+  plugins: ['prettier', '@typescript-eslint'],
   env: {
     es6: true,
     jest: true,
     node: true,
   },
-  parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
