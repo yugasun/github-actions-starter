@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/yugasun/github-actions-starter/compare/v1.0.1...v1.0.2) (2020-09-11)
+
+
+### Bug Fixes
+
+* add bundle step for release ([a7c3f7a](https://github.com/yugasun/github-actions-starter/commit/a7c3f7a9187d1803349e886100be8431735a04f9))
+
 ## [1.0.1](https://github.com/yugasun/github-actions-starter/compare/v1.0.0...v1.0.1) (2020-09-09)
 
 ### Bug Fixes

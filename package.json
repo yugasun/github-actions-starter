@@ -1,6 +1,6 @@
 {
   "name": "@yugasun/github-actions-starter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Github Actions Project Template",
   "main": "./dist/index.js",
   "publishConfig": {
