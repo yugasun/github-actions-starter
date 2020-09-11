@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/yugasun/github-actions-starter/compare/v1.0.2...v1.0.3) (2020-09-11)
+
+
+### Bug Fixes
+
+* change auto release user to slsplus ([d95ad81](https://github.com/yugasun/github-actions-starter/commit/d95ad81454cf581f40cd19e3f291be23f40e27f1))
+
 ## [1.0.2](https://github.com/yugasun/github-actions-starter/compare/v1.0.1...v1.0.2) (2020-09-11)
 
 
