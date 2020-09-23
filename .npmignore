@@ -4,10 +4,11 @@ tsconfig.tsbuildinfo
 tests
 test
 __tests__
+__test__
 .github
 .env*
 jest.config.js
-.eslint.js
+.eslintrc.js
 .eslintignore
 .prettierignore
 prettier.config.js
